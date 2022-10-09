@@ -1,3 +1,9 @@
-body {
-  background-color: black;
+#buttons {
+  position: relative;
+  top: 300px;
+}
+
+.more-buttons {
+  position: absolute;
+  
 }
