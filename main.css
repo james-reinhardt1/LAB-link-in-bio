@@ -1,3 +1,43 @@
-body {
+#buttons {
+  position: relative;
+  top: 75px;
+}
+
+.more-buttons {
+  position: absolute;
+
+}
+
+.headshot {
+display: block;
+margin-left: auto;
+margin-right: auto;
+padding: 0px;
+border-radius: 50%;
+border: rgb(113, 203, 206) 5px solid;
+}
+
+.text {
+  text-align: center;
+
+}
+
+i {
+  padding-left: 10px;
+  padding-right: 10px;
+
+}
+
+.icons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 5px;
+  
+}
+
+.btn.btn-primary.btn-block {
   background-color: black;
+  color: rgb(113, 203, 206);
+
 }
